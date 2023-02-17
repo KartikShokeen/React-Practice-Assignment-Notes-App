@@ -1,0 +1,48 @@
+.notes {
+  background-color: #56b4f3;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 180px;
+  max-height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-wrap;
+}
+input {
+  border: none;
+  resize: none;
+  background-color: #56b4f3;
+}
+input:focus {
+  outline: none;
+}
+textarea {
+  border: none;
+  resize: none;
+  background-color: #56b4f3;
+  max-height: max-content;
+}
+textarea:focus {
+  outline: none;
+}
+.note-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.update {
+  margin-right: 10px;
+  background-color: rgb(182, 180, 180);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+.update:hover,
+.delete:hover {
+  cursor: pointer;
+}
+.update:disabled {
+  cursor: not-allowed;
+}

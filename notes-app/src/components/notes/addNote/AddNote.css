@@ -1,0 +1,58 @@
+.note {
+  background-color: #58b6f5;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 180px;
+  max-height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-wrap;
+  min-width: 217px;
+}
+.add{
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+.add:hover{
+  cursor: pointer;
+  background-color: rgb(192, 189, 189);
+}
+input {
+  border: none;
+  resize: none;
+  background-color: #56b4f3;
+}
+input:focus {
+  outline: none;
+}
+textarea {
+  border: none;
+  resize: none;
+  background-color: #56b4f3;
+  max-height: max-content;
+  
+}
+textarea:focus {
+  outline: none;
+}
+.save {
+  margin-right: 10px;
+  background-color: rgb(182, 180, 180);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+}
+.save:hover{
+    cursor: pointer;
+
+}
+.save:disabled{
+  cursor: not-allowed;
+}
+.note-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
